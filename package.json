@@ -1,0 +1,34 @@
+{
+  "name": "pagebaker",
+  "version": "0.1.0",
+  "description": "A module bakes dynamic site pages into static html.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxvvii/pagebaker.git"
+  },
+  "keywords": [
+    "html",
+    "baker",
+    "prerender",
+    "seo"
+  ],
+  "author": "xxvvii",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xxvvii/pagebaker/issues"
+  },
+  "homepage": "https://github.com/xxvvii/pagebaker#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "consolidate": "^0.14.5",
+    "express": "^4.14.1",
+    "handlebars": "^4.0.6",
+    "json-hash": "^1.2.0",
+    "kue": "^0.11.5",
+    "redis": "^2.6.5"
+  }
+}
